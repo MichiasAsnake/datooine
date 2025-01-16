@@ -57,36 +57,40 @@ const AboutUs = () => {
         </div>
 
         <motion.div 
-          className="bg-[#FFA45B] rounded-3xl flex justify-center items-center p-12"
+          className="bg-[#FFA45B] rounded-3xl overflow-hidden"
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <Image
-            src="/images/astronaut-laptop.png"
-            alt="Astronaut with laptop"
-            width={300}
-            height={300}
-            className="object-contain"
-          />
+          <div className="relative h-[400px]">
+            <Image
+              src="/images/astro.jpg"
+              alt="Astronaut in space"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
         </motion.div>
 
         {/* Platform Section */}
         <motion.div 
-          className="bg-[#FFA45B] rounded-3xl flex justify-center items-center p-12 md:order-1 order-2"
+          className="bg-[#FFA45B] rounded-3xl overflow-hidden md:order-1 order-2"
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <Image
-            src="/images/astronaut-coffee.png"
-            alt="Astronaut with coffee"
-            width={300}
-            height={300}
-            className="object-contain"
-          />
+          <div className="relative h-[400px]">
+            <Image
+              src="/images/world.jpg"
+              alt="Global technology network"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
         </motion.div>
 
         <div className="flex flex-col justify-center md:order-2 order-1">
