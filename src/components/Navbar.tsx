@@ -1,6 +1,5 @@
 'use client';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
