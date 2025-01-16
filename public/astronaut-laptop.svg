@@ -1,0 +1,42 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helmet -->
+  <circle cx="150" cy="120" r="45" fill="#4A00FF" fillOpacity="0.2"/>
+  <circle cx="150" cy="120" r="40" fill="#000000" stroke="#FFFFFF" strokeWidth="2"/>
+  
+  <!-- Visor -->
+  <path
+    d="M130 115C130 105 140 100 150 100C160 100 170 105 170 115C170 125 160 135 150 135C140 135 130 125 130 115Z"
+    fill="#00FFB3"
+    fillOpacity="0.3"
+  />
+  
+  <!-- Body -->
+  <rect x="130" y="150" width="40" height="60" rx="20" fill="#FFFFFF"/>
+  
+  <!-- Arms -->
+  <rect x="110" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  <rect x="160" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  
+  <!-- Laptop -->
+  <rect x="140" y="180" width="40" height="30" rx="5" fill="#4A00FF" fillOpacity="0.8"/>
+  <rect x="140" y="205" width="40" height="5" rx="2.5" fill="#4A00FF"/>
+  
+  <!-- Screen Glow -->
+  <rect x="145" y="185" width="30" height="20" rx="2" fill="#00FFB3" fillOpacity="0.3"/>
+  
+  <!-- Helmet Details -->
+  <path
+    d="M125 120C125 105 135 95 150 95C165 95 175 105 175 120"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+  
+  <!-- Reflection -->
+  <path
+    d="M140 110L145 105"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+</svg> 

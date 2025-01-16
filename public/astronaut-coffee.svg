@@ -1,0 +1,62 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helmet -->
+  <circle cx="150" cy="120" r="45" fill="#4A00FF" fillOpacity="0.2"/>
+  <circle cx="150" cy="120" r="40" fill="#000000" stroke="#FFFFFF" strokeWidth="2"/>
+  
+  <!-- Visor -->
+  <path
+    d="M130 115C130 105 140 100 150 100C160 100 170 105 170 115C170 125 160 135 150 135C140 135 130 125 130 115Z"
+    fill="#00FFB3"
+    fillOpacity="0.3"
+  />
+  
+  <!-- Body -->
+  <rect x="130" y="150" width="40" height="60" rx="20" fill="#FFFFFF"/>
+  
+  <!-- Arms -->
+  <rect x="110" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  <rect x="160" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  
+  <!-- Coffee Cup -->
+  <rect x="170" y="150" width="20" height="25" rx="5" fill="#4A00FF"/>
+  <path
+    d="M170 155C170 155 175 153 180 153C185 153 190 155 190 155"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+  />
+  <path
+    d="M175 160C175 160 180 165 185 160"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+  />
+  
+  <!-- Steam -->
+  <path
+    d="M175 145C175 145 180 140 185 145"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeDasharray="2 2"
+  />
+  <path
+    d="M180 140C180 140 185 135 190 140"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeDasharray="2 2"
+  />
+  
+  <!-- Helmet Details -->
+  <path
+    d="M125 120C125 105 135 95 150 95C165 95 175 105 175 120"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+  
+  <!-- Reflection -->
+  <path
+    d="M140 110L145 105"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+</svg> 

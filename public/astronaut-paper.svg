@@ -1,0 +1,51 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helmet -->
+  <circle cx="150" cy="120" r="45" fill="#4A00FF" fillOpacity="0.2"/>
+  <circle cx="150" cy="120" r="40" fill="#000000" stroke="#FFFFFF" strokeWidth="2"/>
+  
+  <!-- Visor -->
+  <path
+    d="M130 115C130 105 140 100 150 100C160 100 170 105 170 115C170 125 160 135 150 135C140 135 130 125 130 115Z"
+    fill="#00FFB3"
+    fillOpacity="0.3"
+  />
+  
+  <!-- Body -->
+  <rect x="130" y="150" width="40" height="60" rx="20" fill="#FFFFFF"/>
+  
+  <!-- Arms -->
+  <rect x="110" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  <rect x="160" y="160" width="30" height="15" rx="7.5" fill="#FFFFFF"/>
+  
+  <!-- Paper Plane -->
+  <path
+    d="M190 150L210 140L200 160L190 150Z"
+    fill="#FFFFFF"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+  />
+  
+  <!-- Paper Plane Trail -->
+  <path
+    d="M185 145C185 145 195 135 205 125"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeDasharray="4 4"
+  />
+  
+  <!-- Helmet Details -->
+  <path
+    d="M125 120C125 105 135 95 150 95C165 95 175 105 175 120"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+  
+  <!-- Reflection -->
+  <path
+    d="M140 110L145 105"
+    stroke="#FFFFFF"
+    strokeWidth="2"
+    strokeLinecap="round"
+  />
+</svg> 
